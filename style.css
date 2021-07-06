@@ -46,8 +46,33 @@ p{
 h3{
     font-size: 40px;
 }
-
-
+.expo{
+    width:50%;
+    box-shadow: 20px 10px 40px cadetblue ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#avengers{
+    border-left:7px solid ;
+    border-image: linear-gradient(blue ,cyan);
+    border-image-slice: 1;
+}
+#galaxy{
+    border-left:7px solid ;
+    border-image: linear-gradient(red ,rgb(255, 230, 0));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: left;
+    color: darkslategrey;
+}
 
 
 
